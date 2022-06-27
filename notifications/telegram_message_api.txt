@@ -1,0 +1,10 @@
+Telegram Token Zoomki_Bot: 5294698330:AAFT5Ei43I_sEgblu-gAStnjSVj7HA4x3yE
+Locate Zoomki_Bot in group"Test Notification" chat_id: -1001592027357
+
+//Command in many lines(\ as separator)
+curl -X POST \
+-H 'Content-Type: application/json' \
+-d '{"chat_id": "-1001592027357", "text": "V !)", "disable_notification": true}' \
+https://api.telegram.org/bot5294698330:AAFT5Ei43I_sEgblu-gAStnjSVj7HA4x3yE/sendMessage
+//Command in line
+curl -X POST     -H 'Content-Type: application/json' -d '{"chat_id": "-1001592027357", "text": "и по русски тоже можно бляди"}' https://api.telegram.org/bot5294698330:AAFT5Ei43I_sEgblu-gAStnjSVj7HA4x3yE/sendMessage

@@ -1,0 +1,15 @@
+//Template
+java "-DprojectName=${PROJECT_NAME}" "-Denv=${ENVIRONMENT}" "-DreportLink=${BUILD_URL}" "-Dcomm=Any comment here" "-Dconfig.file=${PATH_TO_FILE}" -jar notifications/allure-notifications-4.1.jar
+
+//Local run
+java "-DprojectName=local test run" "-Denv=PROD" "-DreportLink=${BUILD_URL}" "-Dcomm=if you look this text that mean telegram notification passed" "-Dconfig.file=notifications/telegram_config.json" -jar notifications/allure-notifications-3.1.2.jar
+
+
+
+java \
+"-DprojectName=API Autotests" \
+"-Denv=PROD" \
+"-DreportLink=${BUILD_URL}" \
+"-Dcomm= any comment here" \
+"-Dconfig.file=notifications/telegram_config.json" \
+-jar notifications/allure-notifications-3.1.2.jar

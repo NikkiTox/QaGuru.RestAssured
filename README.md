@@ -6,11 +6,9 @@
 - <a href="#hotsprings-технологии-и-инструменты">Технологии и инструменты</a>
 - <a href="#hotsprings-реализованные-проверки">Реализованные проверки</a>
 - <a href="#hotsprings-сборка-в-Jenkins">Сборка в Jenkins</a>
-- <a href="#hotsprings-запуск-из-терминала">Запуск из терминала</a>
 - <a href="#hotsprings-allure-отчет">Allure отчет</a>
 - <a href="#hotsprings-allure-отчет">Allure TestOps</a>
 - <a href="#hotsprings-отчет-в-telegram">Отчет в Telegram</a>
-- <a href="#hotsprings-видео-примеры-прохождения-тестов">Видео примеры прохождения тестов</a>
 
 ## :hotsprings: Технологии и инструменты
 <p align="center">
@@ -35,30 +33,36 @@
 - Регистрация пользователя
 
 ## :hotsprings: Сборка в Jenkins
-### <a target="_blank"> https://jenkins.autotests.cloud/job/011-AlexDonskov-api-diplom/ </a>
+### <a target="_blank"> https://jenkins.autotests.cloud/job/student-Nikkitox-qa_guru_11_restassured/11/ </a>
 <p align="center">
-<img title="Jenkins Dashboard" src="images/screenshots/jenkins-dashboard.png">
+<img title="Jenkins Dashboard" src="images/screenshots/jenkins.png">
 </p>
 
 ## :hotsprings: Allure отчет
 - ### Главный экран отчета
 <p align="center">
-<img title="Allure Overview Dashboard" src="images/screenshots/allure-main-page.png">
+<img title="Allure Overview Dashboard" src="images/screenshots/alluremain.png">
 </p>
 
 - ### Страница с проведенными тестами
 <p align="center">
-<img title="Allure Test Page" src="images/screenshots/allure-test-page.png">
+<img title="Allure Test Page" src="images/screenshots/alluresuites.png">
 </p>
 
 
 ## :hotsprings: Allure TestOps
 - ### Главный экран отчета
 <p align="center">
-<img title="Allure Overview Dashboard" src="images/screenshots/TT-dashboard.png">
+<img title="Allure Overview Dashboard" src="images/screenshots/testopsmain.png">
 </p>
 
 - ### Страница с проведенными тестами
 <p align="center">
-<img title="Allure Test Page" src="images/screenshots/TT-test-page.png">
+<img title="Allure Test Page" src="images/screenshots/testopstests.png">
 </p>
+
+- ### Отчёт Telegram
+<p align="center">
+<img title="Allure Test Page" src="images/screenshots/telegram.png">
+</p>
+
